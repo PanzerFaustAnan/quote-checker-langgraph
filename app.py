@@ -89,7 +89,6 @@ def show_result(state: dict):
 with tab_one:
     left, right = st.columns([1, 2])
     with left:
-        #source = st.radio("Document", ["Sample pack", "Upload a PDF"], horizontal=True)
         if mode == "ai":
             source = st.radio("Document", ["Sample pack", "Upload a PDF"], horizontal=True)
         else:
@@ -134,8 +133,7 @@ with tab_one:
 
 # ------------------------------------------------------------------ tab 2
 with tab_all:
-    #st.write("Runs every sample through the pipeline and compares with the answer key "
-             #"(`data/expected_results.csv`, which I labelled by hand from company-rules.md).")
+
     if st.button("Run all 10", type="primary"):
         graph = build_graph(get_extractor(mode))
         rows, correct, bar = [], 0, st.progress(0.0)
