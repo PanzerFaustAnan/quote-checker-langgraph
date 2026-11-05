@@ -1,0 +1,228 @@
+{
+  "mode": "ai",
+  "correct": 10,
+  "total": 10,
+  "results": [
+    {
+      "pack": "supplier-pack-01",
+      "expected": "Approve",
+      "system": "Approve",
+      "correct": true,
+      "seconds": 5.1,
+      "reasons": [
+        "Item A (Cotton twill fabric, 280 gsm): unit price 472.00 is within the maximum 480.00.",
+        "Item A (Cotton twill fabric, 280 gsm): quantity 12,000 matches the request (12,000).",
+        "Supplier TIN is shown: 101458013391.",
+        "Supplier BIN is shown: 000170141-0101.",
+        "Advance payment is 10% (within 20%).",
+        "Payment is due 45 days after delivery (within 30 to 60).",
+        "Late-delivery penalty is 1% of order value per week (minimum 0.5%).",
+        "Delivery in 24 days (within 30).",
+        "VAT is shown separately at 15%.",
+        "Line totals, subtotal, VAT and total all add up.",
+        "Quotation is valid for 45 days."
+      ],
+      "log": [
+        "1. Read PDF: 1034 characters.",
+        "2. Extracted 1 item(s) from Padma Textile Mills Ltd.",
+        "3. Evidence check: 19 values checked, 0 problem(s).",
+        "4. Compared with purchase request: 2 check(s).",
+        "5. Applied company rules: 9 check(s).",
+        "6. Decision: Approve."
+      ]
+    },
+    {
+      "pack": "supplier-pack-02",
+      "expected": "Approve",
+      "system": "Approve",
+      "correct": true,
+      "seconds": 3.2,
+      "reasons": [
+        "Item B (Metal zipper, 18 cm): unit price 36.00 is within the maximum 38.00.",
+        "Item B (Metal zipper, 18 cm): quantity 20,000 matches the request (20,000).",
+        "Supplier TIN is shown: 102458023391.",
+        "Supplier BIN is shown: 000270241-0101.",
+        "Advance payment is 0% (within 20%).",
+        "Payment is due 30 days after delivery (within 30 to 60).",
+        "Late-delivery penalty is 0.75% of order value per week (minimum 0.5%).",
+        "Delivery in 21 days (within 30).",
+        "VAT is shown separately at 15%.",
+        "Line totals, subtotal, VAT and total all add up.",
+        "Quotation is valid for 30 days."
+      ],
+      "log": [
+        "1. Read PDF: 1016 characters.",
+        "2. Extracted 1 item(s) from Jamuna Trims and Accessories.",
+        "3. Evidence check: 19 values checked, 0 problem(s).",
+        "4. Compared with purchase request: 2 check(s).",
+        "5. Applied company rules: 9 check(s).",
+        "6. Decision: Approve."
+      ]
+    },
+    {
+      "pack": "supplier-pack-03",
+      "expected": "Reject",
+      "system": "Reject",
+      "correct": true,
+      "seconds": 4.6,
+      "reasons": [
+        "Item C (Polyester sewing thread, cone): unit price 229.00 is 9.05% above the maximum 210.00 (limit is 3%)."
+      ],
+      "log": [
+        "1. Read PDF: 967 characters.",
+        "2. Extracted 1 item(s) from Karnaphuli Yarn Traders.",
+        "3. Evidence check: 19 values checked, 0 problem(s).",
+        "4. Compared with purchase request: 2 check(s).",
+        "5. Applied company rules: 9 check(s).",
+        "6. Decision: Reject."
+      ]
+    },
+    {
+      "pack": "supplier-pack-04",
+      "expected": "Needs a person to check",
+      "system": "Needs a person to check",
+      "correct": true,
+      "seconds": 3.1,
+      "reasons": [
+        "Item D (Poly bag, 30 x 40 cm): unit price 6.65 is 2.31% above the maximum 6.50 (within the 3% margin)."
+      ],
+      "log": [
+        "1. Read PDF: 950 characters.",
+        "2. Extracted 1 item(s) from Surma Packaging Industries.",
+        "3. Evidence check: 19 values checked, 0 problem(s).",
+        "4. Compared with purchase request: 2 check(s).",
+        "5. Applied company rules: 9 check(s).",
+        "6. Decision: Needs a person to check.",
+        "7. Sent to the review queue for a person."
+      ]
+    },
+    {
+      "pack": "supplier-pack-05",
+      "expected": "Reject",
+      "system": "Reject",
+      "correct": true,
+      "seconds": 13.6,
+      "reasons": [
+        "Advance payment is 40% (maximum allowed is 20%)."
+      ],
+      "log": [
+        "1. Read PDF: 969 characters.",
+        "2. Extracted 1 item(s) from Meghna Carton Works.",
+        "3. Evidence check: 19 values checked, 0 problem(s).",
+        "4. Compared with purchase request: 1 check(s).",
+        "5. Applied company rules: 9 check(s).",
+        "6. Decision: Reject."
+      ]
+    },
+    {
+      "pack": "supplier-pack-06",
+      "expected": "Reject",
+      "system": "Reject",
+      "correct": true,
+      "seconds": 25.1,
+      "reasons": [
+        "The contract has no late-delivery penalty clause."
+      ],
+      "log": [
+        "1. Read PDF: 883 characters.",
+        "2. Extracted 1 item(s) from Teesta Fabrics Ltd.",
+        "3. Evidence check: 18 values checked, 0 problem(s).",
+        "4. Compared with purchase request: 2 check(s).",
+        "5. Applied company rules: 9 check(s).",
+        "6. Decision: Reject."
+      ]
+    },
+    {
+      "pack": "supplier-pack-07",
+      "expected": "Needs a person to check",
+      "system": "Needs a person to check",
+      "correct": true,
+      "seconds": 17.3,
+      "reasons": [
+        "Item B (Metal zipper, 18 cm): quoted 16,500 but we asked for 20,000 (-17.5%, limit is \u00b15%)."
+      ],
+      "log": [
+        "1. Read PDF: 919 characters.",
+        "2. Extracted 1 item(s) from Rupsha Zipper Factory.",
+        "3. Evidence check: 19 values checked, 0 problem(s).",
+        "4. Compared with purchase request: 2 check(s).",
+        "5. Applied company rules: 9 check(s).",
+        "6. Decision: Needs a person to check.",
+        "7. Sent to the review queue for a person."
+      ]
+    },
+    {
+      "pack": "supplier-pack-08",
+      "expected": "Reject",
+      "system": "Reject",
+      "correct": true,
+      "seconds": 16.0,
+      "reasons": [
+        "Supplier TIN is missing.",
+        "Supplier BIN is missing."
+      ],
+      "log": [
+        "1. Read PDF: 943 characters.",
+        "2. Extracted 1 item(s) from Bhairab Thread and Co.",
+        "3. Evidence check: 17 values checked, 0 problem(s).",
+        "4. Compared with purchase request: 2 check(s).",
+        "5. Applied company rules: 9 check(s).",
+        "6. Decision: Reject."
+      ]
+    },
+    {
+      "pack": "supplier-pack-09",
+      "expected": "Needs a person to check",
+      "system": "Needs a person to check",
+      "correct": true,
+      "seconds": 43.0,
+      "reasons": [
+        "Item 'None D Poly bag, 30 x 40 cm' is not in the purchase request.",
+        "Payment period is counted from 'unclear', not from delivery.",
+        "Line None: 50,000 \u00d7 6.40 = 320,000.00, but the quote says 322,000.00."
+      ],
+      "log": [
+        "1. Read PDF: 956 characters.",
+        "2. Extracted 1 item(s) from Dhaleshwari Poly Pack.",
+        "3. Evidence check: 19 values checked, 0 problem(s).",
+        "4. Compared with purchase request: 1 check(s).",
+        "5. Applied company rules: 9 check(s).",
+        "6. Decision: Needs a person to check.",
+        "7. Sent to the review queue for a person."
+      ]
+    },
+    {
+      "pack": "supplier-pack-10",
+      "expected": "Reject",
+      "system": "Reject",
+      "correct": true,
+      "seconds": 14.4,
+      "reasons": [
+        "Delivery in 60 days (maximum allowed is 45)."
+      ],
+      "log": [
+        "1. Read PDF: 936 characters.",
+        "2. Extracted 1 item(s) from Kushiyara Box Industries.",
+        "3. Evidence check: 16 values checked, 0 problem(s).",
+        "4. Compared with purchase request: 2 check(s).",
+        "5. Applied company rules: 9 check(s).",
+        "6. Decision: Reject."
+      ]
+    }
+  ],
+  "fields_right": 279,
+  "fields_total": 290,
+  "wrong_fields": [
+    "supplier-pack-01 items[0].item_code: AI=None correct='A'",
+    "supplier-pack-04 items[0].item_code: AI='' correct='D'",
+    "supplier-pack-05 items[0].item_code: AI=None correct='E'",
+    "supplier-pack-05 items[0].description: AI='E Carton box, 5-ply' correct='Carton box, 5-ply'",
+    "supplier-pack-05 payment.is_clear: AI=True correct=False",
+    "supplier-pack-06 items[0].item_code: AI=None correct='A'",
+    "supplier-pack-06 penalty.basis_is_order_value: AI=False correct=None",
+    "supplier-pack-07 items[0].item_code: AI=None correct='B'",
+    "supplier-pack-09 items[0].item_code: AI=None correct='D'",
+    "supplier-pack-09 items[0].description: AI='D Poly bag, 30 x 40 cm' correct='Poly bag, 30 x 40 cm'",
+    "supplier-pack-09 payment.is_clear: AI=True correct=False"
+  ]
+}

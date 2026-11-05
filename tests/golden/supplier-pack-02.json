@@ -1,0 +1,78 @@
+{
+  "supplier_name": {
+    "value": "Jamuna Trims and Accessories",
+    "quote": "For Jamuna Trims and Accessories"
+  },
+  "quotation_no": {
+    "value": "QT-2026-902",
+    "quote": "Quotation no. QT-2026-902"
+  },
+  "quote_date": {
+    "value": "2026-10-22",
+    "quote": "Date 2026-10-22"
+  },
+  "pr_reference": {
+    "value": "PR-2026-114",
+    "quote": "Reference PR-2026-114"
+  },
+  "items": [
+    {
+      "item_code": "B",
+      "description": "Metal zipper, 18 cm",
+      "quantity": 20000,
+      "unit": "piece",
+      "unit_price": 36.0,
+      "amount": 720000.0,
+      "quote": "B Metal zipper, 18 cm 20,000 piece 36.00 720,000.00"
+    }
+  ],
+  "subtotal": {
+    "value": 720000.0,
+    "quote": "Subtotal 720,000.00"
+  },
+  "vat_rate_percent": {
+    "value": 15,
+    "quote": "VAT 15% 108,000.00"
+  },
+  "vat_amount": {
+    "value": 108000.0,
+    "quote": "VAT 15% 108,000.00"
+  },
+  "total": {
+    "value": 828000.0,
+    "quote": "Total 828,000.00"
+  },
+  "prices_include_vat": false,
+  "tin": {
+    "value": "102458023391",
+    "quote": "TIN: 102458023391"
+  },
+  "bin": {
+    "value": "000270241-0101",
+    "quote": "BIN: 000270241-0101"
+  },
+  "payment": {
+    "advance_percent": 0,
+    "balance_days_min": 30,
+    "balance_days_max": 30,
+    "counted_from": "delivery",
+    "is_clear": true,
+    "quote": "No advance payment required. Full payment within 30 days of delivery."
+  },
+  "delivery": {
+    "number": 21,
+    "unit": "days",
+    "quote": "Goods will be delivered at your factory within 21 days from the date of PO."
+  },
+  "penalty": {
+    "present": true,
+    "percent": 0.75,
+    "per": "week",
+    "basis_is_order_value": true,
+    "quote": "For late delivery the supplier shall pay 0.75% of the order value per week of delay."
+  },
+  "validity_days": {
+    "value": 30,
+    "quote": "valid for 30 days from the date above"
+  }
+}

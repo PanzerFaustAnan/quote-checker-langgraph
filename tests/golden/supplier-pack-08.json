@@ -1,0 +1,78 @@
+{
+  "supplier_name": {
+    "value": "Bhairab Thread and Co",
+    "quote": "For Bhairab Thread and Co"
+  },
+  "quotation_no": {
+    "value": "QT-2026-908",
+    "quote": "Quotation no. QT-2026-908"
+  },
+  "quote_date": {
+    "value": "2026-10-21",
+    "quote": "Date 2026-10-21"
+  },
+  "pr_reference": {
+    "value": "PR-2026-114",
+    "quote": "Reference PR-2026-114"
+  },
+  "items": [
+    {
+      "item_code": "C",
+      "description": "Polyester sewing thread, cone",
+      "quantity": 800,
+      "unit": "cone",
+      "unit_price": 205.0,
+      "amount": 164000.0,
+      "quote": "C Polyester sewing thread, cone 800 cone 205.00 164,000.00"
+    }
+  ],
+  "subtotal": {
+    "value": 164000.0,
+    "quote": "Subtotal 164,000.00"
+  },
+  "vat_rate_percent": {
+    "value": 15,
+    "quote": "VAT 15% 24,600.00"
+  },
+  "vat_amount": {
+    "value": 24600.0,
+    "quote": "VAT 15% 24,600.00"
+  },
+  "total": {
+    "value": 188600.0,
+    "quote": "Total 188,600.00"
+  },
+  "prices_include_vat": false,
+  "tin": {
+    "value": null,
+    "quote": null
+  },
+  "bin": {
+    "value": null,
+    "quote": null
+  },
+  "payment": {
+    "advance_percent": 10,
+    "balance_days_min": 30,
+    "balance_days_max": 30,
+    "counted_from": "delivery",
+    "is_clear": true,
+    "quote": "10% advance payable with the purchase order. Payment within 30 days of delivery."
+  },
+  "delivery": {
+    "number": 18,
+    "unit": "days",
+    "quote": "Delivery within 18 days of PO."
+  },
+  "penalty": {
+    "present": true,
+    "percent": 0.5,
+    "per": "week",
+    "basis_is_order_value": false,
+    "quote": "Late delivery penalty of 0.5% per week of delay."
+  },
+  "validity_days": {
+    "value": 30,
+    "quote": "valid for 30 days from the date above"
+  }
+}

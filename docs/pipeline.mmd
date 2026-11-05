@@ -1,0 +1,13 @@
+flowchart LR
+  A[1. Read PDF] --> B[2. AI reads the quote<br/>+ exact quotes]:::ai
+  B --> C[3. Evidence check]
+  C --> D[4. Compare with<br/>purchase request]
+  D --> E[5. Company rules]
+  E --> F{6. Decide}
+  F -->|sure| G[Approve / Reject]:::ok
+  F -->|not sure| H[7. Person reviews]:::human
+  A -.->|error| H
+  B -.->|error| H
+  classDef ai fill:#dbeafe,stroke:#3b82f6
+  classDef ok fill:#dcfce7,stroke:#16a34a
+  classDef human fill:#fef3c7,stroke:#d97706

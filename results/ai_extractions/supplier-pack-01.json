@@ -1,0 +1,78 @@
+{
+  "supplier_name": {
+    "value": "Padma Textile Mills Ltd",
+    "quote": "Padma Textile Mills Ltd"
+  },
+  "quotation_no": {
+    "value": "QT-2026-901",
+    "quote": "QT-2026-901"
+  },
+  "quote_date": {
+    "value": "2026-10-21",
+    "quote": "2026-10-21"
+  },
+  "pr_reference": {
+    "value": "PR-2026-114",
+    "quote": "PR-2026-114"
+  },
+  "items": [
+    {
+      "item_code": null,
+      "description": "Cotton twill fabric, 280 gsm",
+      "quantity": 12000.0,
+      "unit": "metre",
+      "unit_price": 472.0,
+      "amount": 5664000.0,
+      "quote": "A Cotton twill fabric, 280 gsm 12,000 metre 472.00 5,664,000.00"
+    }
+  ],
+  "subtotal": {
+    "value": 5664000.0,
+    "quote": "Subtotal 5,664,000.00"
+  },
+  "vat_rate_percent": {
+    "value": 15.0,
+    "quote": "15%"
+  },
+  "vat_amount": {
+    "value": 849600.0,
+    "quote": "849,600.00"
+  },
+  "total": {
+    "value": 6513600.0,
+    "quote": "Total 6,513,600.00"
+  },
+  "prices_include_vat": false,
+  "tin": {
+    "value": "101458013391",
+    "quote": "101458013391"
+  },
+  "bin": {
+    "value": "000170141-0101",
+    "quote": "000170141-0101"
+  },
+  "payment": {
+    "advance_percent": 10.0,
+    "balance_days_min": 45.0,
+    "balance_days_max": 45.0,
+    "counted_from": "delivery",
+    "is_clear": true,
+    "quote": "1. Payment. 10% advance payable with the purchase order. Balance payable within 45 days after delivery and acceptance of goods."
+  },
+  "delivery": {
+    "number": 24.0,
+    "unit": "days",
+    "quote": "Delivery within 24 days of receiving the purchase order."
+  },
+  "penalty": {
+    "present": true,
+    "percent": 1.0,
+    "per": "week",
+    "basis_is_order_value": true,
+    "quote": "3. Delay. Late delivery penalty: 1% of order value for each full week of delay."
+  },
+  "validity_days": {
+    "value": 45.0,
+    "quote": "This quotation is valid for 45 days from the date above."
+  }
+}

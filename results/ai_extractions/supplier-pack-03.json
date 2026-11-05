@@ -1,0 +1,78 @@
+{
+  "supplier_name": {
+    "value": "Karnaphuli Yarn Traders",
+    "quote": "Karnaphuli Yarn Traders"
+  },
+  "quotation_no": {
+    "value": "QT-2026-903",
+    "quote": "QT-2026-903"
+  },
+  "quote_date": {
+    "value": "2026-10-23",
+    "quote": "2026-10-23"
+  },
+  "pr_reference": {
+    "value": "PR-2026-114",
+    "quote": "PR-2026-114"
+  },
+  "items": [
+    {
+      "item_code": "C",
+      "description": "Polyester sewing thread, cone",
+      "quantity": 800.0,
+      "unit": "cone",
+      "unit_price": 229.0,
+      "amount": 183200.0,
+      "quote": "C Polyester sewing thread, cone 800 cone 229.00 183,200.00"
+    }
+  ],
+  "subtotal": {
+    "value": 183200.0,
+    "quote": "Subtotal 183,200.00"
+  },
+  "vat_rate_percent": {
+    "value": 15.0,
+    "quote": "VAT 15% 27,480.00"
+  },
+  "vat_amount": {
+    "value": 27480.0,
+    "quote": "VAT 15% 27,480.00"
+  },
+  "total": {
+    "value": 210680.0,
+    "quote": "Total 210,680.00"
+  },
+  "prices_include_vat": false,
+  "tin": {
+    "value": "103458033391",
+    "quote": "Supplier TIN: 103458033391 BIN: 000370341-0101"
+  },
+  "bin": {
+    "value": "000370341-0101",
+    "quote": "Supplier TIN: 103458033391 BIN: 000370341-0101"
+  },
+  "payment": {
+    "advance_percent": 15.0,
+    "balance_days_min": 40.0,
+    "balance_days_max": 40.0,
+    "counted_from": "delivery",
+    "is_clear": true,
+    "quote": "1. Payment. 15% advance payable with the purchase order. Balance within 40 days of delivery."
+  },
+  "delivery": {
+    "number": 20.0,
+    "unit": "days",
+    "quote": "2. Delivery. Delivery within 20 days of PO."
+  },
+  "penalty": {
+    "present": true,
+    "percent": 0.5,
+    "per": "week",
+    "basis_is_order_value": true,
+    "quote": "3. Delay. Delay in delivery will attract a penalty of 0.5% of order value per week."
+  },
+  "validity_days": {
+    "value": 30.0,
+    "quote": "4. Validity. This quotation is valid for 30 days from the date above."
+  }
+}

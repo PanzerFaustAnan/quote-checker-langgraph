@@ -1,0 +1,11 @@
+pack,expected_decision,main_reason
+supplier-pack-01,Approve,All rules pass (price 472 <= 480; 10% advance; 45 days payment; 24 days delivery; 1% penalty; VAT 15%; valid 45 days)
+supplier-pack-02,Approve,All rules pass (price 36 <= 38; no advance; 30 days payment; 21 days delivery; 0.75% penalty; VAT 15%; valid 30 days)
+supplier-pack-03,Reject,Unit price 229 is 9.05% above the maximum 210 (Reject rule 1)
+supplier-pack-04,Needs a person to check,Unit price 6.65 is 2.31% above the maximum 6.50 (Review rule 1)
+supplier-pack-05,Reject,40% advance payment (Reject rule 2); payment clause is also repeated/unclear
+supplier-pack-06,Reject,No late-delivery penalty clause (Reject rule 3)
+supplier-pack-07,Needs a person to check,"Quantity 16,500 vs 20,000 requested (-17.5%) (Review rule 2)"
+supplier-pack-08,Reject,Supplier TIN and BIN missing (Reject rule 4)
+supplier-pack-09,Needs a person to check,"50,000 x 6.40 = 320,000 but line says 322,000 (Review rule 6); payment 30 to 90 days 'as agreed' (Review rule 3)"
+supplier-pack-10,Reject,Delivery in 60 days (Reject rule 5); VAT not shown separately (Review rule 5)
